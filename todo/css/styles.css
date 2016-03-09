@@ -1,13 +1,18 @@
 
 #app {
     font-family: Tahoma, sans-serif;
-    font-size: 1.1em;
-    width: 600px;
+    font-size: 1.1em;    
 }
 
 
+
+.todo-view {
+    float: left;        
+    width: 500px;
+}
+
 .todos div {
-    padding: 3px 0px 3px;
+    padding: 3px 0px 3px;        
 }
 
 .todos .complete {
@@ -31,4 +36,8 @@
 	display: inline-block;
 	padding: 0px 5px;
 	text-transform: capitalize;	
+}
+
+.howto {    
+    font-size: 0.8em;
 }
