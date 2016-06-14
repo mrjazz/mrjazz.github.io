@@ -80,6 +80,19 @@
   line-height: 1;
 }
 
+.item label .context, .item label .contact {
+  border-radius: 3px;
+  padding: 0px 4px 0px 4px;
+}
+
+.item label .contact {
+  background-color: #98E4FF;
+}
+
+.item label .context {
+  background-color: #FFFE98;
+}
+
 .item .wrap {
   width: 100%;
   display: table;
