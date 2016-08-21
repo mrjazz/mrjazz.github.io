@@ -16,6 +16,10 @@
     /*height: 500px;*/
 }
 
+.todo-view .command input{
+  width: calc(100% - 8px);
+}
+
 /*.todos div {
     padding: 3px 0px 3px;
 }*/
@@ -26,6 +30,10 @@
 
 .todos .item-selected {
     background-color: #BED2D9;
+}
+
+.todos .item-last {
+  background-color: #D5D5D5;
 }
 
 .todos .item-hover {
@@ -73,6 +81,10 @@
   padding-left: 16px;
 }
 
+.all-items input[type="text"]{
+  width: calc(100% - 50px);
+}
+
 .item {
   padding: 5px;
   display: block;
@@ -102,6 +114,11 @@
   font-size: 0.6em;
   text-align: right;
   width: 98%;
+}
+
+.command .hint {
+  font-size: 0.7em;
+  padding-top: 10px;
 }
 
 .item .block, .item .control {
@@ -205,7 +222,7 @@
 
 .debug {
   font-size: 10px;
-  display: none;
+  /*display: none;*/
 }
 
 .date-picker {
@@ -228,4 +245,7 @@
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 4px;
+}
+.all-items input[type="text"]{
+	    width: calc(100% - 50px);
 }
